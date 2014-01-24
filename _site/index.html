@@ -3,28 +3,70 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
-    <!-- TODO feed -->
+    <link rel="alternate" type="application/atom+xml" title="James Bloomer feed" href="/feed/">
     <title>James Bloomer | Fiction & Software</title>
 </head>
 <body>
-HEADER
+    <header>
+        <hgroup>
+            <h1>James Bloomer</h1>
+            <h2>Fiction & Software</h2>
+        </hgroup>
 
+        <nav>
+            <ul>
+                <li><a href="about/">about</a></li>
+                <li><a href="fiction/">fiction</a></li>
+                <li><a href="software">software</a></li>
+                <li><a href="feed/">feed</a></li>
+            </ul>
+        </nav>
+    </header>
 
-
-
-DEFAULT TEMPLATE
 
 
 <h1>Front page</h1>
 
-  <ul class="posts">
+<section>
     
-      <li><span>23 Jan 2014</span> &raquo; <a href="/2014/01/23/test-post.html">This Is A Test</a></li>
+    <article>
+        <header>
+            <time datetime="2014-01-23 00:00:00 +0000" pubdate="">23 Jan 2014</time>
+            <h1>
+                <a href="/2014/01/23/test-post.html" rel="bookmark" title="link to this post">This Is A Test</a>
+            </h1>
+        </header>
+        <p><p>This is a test post.</p>
+
+<p>This is a new paragraph.</p>
+
+<p>This is a list:</p>
+
+<ul>
+<li>number one</li>
+<li>number two</li>
+<li>number three</li>
+</ul>
+</p>
+    </article>
     
-  </ul>
+</section>
+<aside>
+    <section>
+        <h1>About me</h1>
+        <p>I am me</p>
+    </section>
+    <section>
+        <h1>Current Fiction</h1>
+    </section>
+    <section>
+        <h1>Current Software</h1>
+    </section>
+<aside>
 
-
-FOOTER
+<footer>
+    &copy; James Bloomer
+</footer>
 </body>
 </html>
 

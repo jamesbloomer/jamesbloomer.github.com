@@ -4,8 +4,28 @@ title: James Bloomer | Fiction & Software
 ---
 <h1>Front page</h1>
 
-  <ul class="posts">
+<section>
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <article>
+        <header>
+            <time datetime="{{ post.date }}" pubdate="">{{ post.date | date_to_string }}</time>
+            <h1>
+                <a href="{{ post.url }}" rel="bookmark" title="link to this post">{{ post.title }}</a>
+            </h1>
+        </header>
+        <p>{{ post.content }}</p>
+    </article>
     {% endfor %}
-  </ul>
+</section>
+<aside>
+    <section>
+        <h1>About me</h1>
+        <p>I am me</p>
+    </section>
+    <section>
+        <h1>Current Fiction</h1>
+    </section>
+    <section>
+        <h1>Current Software</h1>
+    </section>
+<aside>
