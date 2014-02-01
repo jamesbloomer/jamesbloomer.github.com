@@ -3,36 +3,20 @@ layout: default
 title: James Bloomer | Fiction & Software
 ---
 
-<div class="content pure-u-1 pure-u-med-3-4">
-<section class="posts">
-    <h1 class="content-subhead">Recent Posts</h1>
+<section>
     
     {% for post in site.posts %}
-    <article class="post">
-        <header class="post-header">
-            <time datetime="{{ post.date }}" pubdate="">{{ post.date | date_to_string }}</time>
-            <h1 class="post-title">
+    <article>
+        <header>
+            <h1>
                 <a href="{{ post.url }}" rel="bookmark" title="link to this post">{{ post.title }}</a>
             </h1>
         </header>
-        <p class="post-description">{{ post.content }}</p>
-        <p class="post-meta">Tags....</p>
+        <p>{{ post.content }}</p>
+        <footer>
+            Written on <time datetime="{{ post.date }}" pubdate="">{{ post.date | date_to_string }}</time>
+            </ul>
+        </footer>
     </article>
     {% endfor %}
 </section>
-</div>
-
-<!--
-<aside>
-    <section>
-        <h1>About me</h1>
-        <p>I am me</p>
-    </section>
-    <section>
-        <h1>Current Fiction</h1>
-    </section>
-    <section>
-        <h1>Current Software</h1>
-    </section>
-<aside>
--->

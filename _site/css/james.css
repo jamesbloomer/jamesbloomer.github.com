@@ -1,0 +1,32 @@
+
+.header {
+    margin-bottom: 4em;
+}
+
+section {
+    max-width: 700px;
+    margin: auto;
+}
+
+article {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 3em;
+}
+
+article > footer {
+    font-size: 75%;
+    color: grey;
+}
+
+.title {
+    text-align: center;
+}
+
+.tagline {
+    text-align: center;
+}
+
+.site-nav {
+    background-color: #191918;
+}
