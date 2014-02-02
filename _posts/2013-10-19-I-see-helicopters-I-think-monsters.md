@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fighting The Darkness 
+title: I See Helicopters, I Think Monsters 
 ---
 My life has Science Fiction interwoven through the entirety of its accumulated strata. From seeing Star Wars when I was four years old, to reading Neuromancer and Snow Crash as a teenager, through starting a blog entirely about Science Fiction, to now when Science Fiction is everywhere, on TV, on Film, audio, literature, comics...
 

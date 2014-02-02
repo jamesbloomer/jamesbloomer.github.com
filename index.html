@@ -8,15 +8,17 @@ title: James Bloomer | Fiction & Software
     {% for post in site.posts %}
     <article>
         <header>
-            <h1>
+            <h3>
                 <a href="{{ post.url }}" rel="bookmark" title="link to this post">{{ post.title }}</a>
-            </h1>
+            </h3>
         </header>
-        <p>{{ post.content }}</p>
+        {{ post.content }}
         <footer>
-            Written on <time datetime="{{ post.date }}" pubdate="">{{ post.date | date_to_string }}</time>
+            Published on <time datetime="{{ post.date }}" pubdate="">{{ post.date | date_to_string }}</time>
             </ul>
         </footer>
     </article>
     {% endfor %}
+
+
 </section>

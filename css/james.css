@@ -1,11 +1,12 @@
-
-.header {
-    margin-bottom: 4em;
+body {
+    margin: 0;
+    font-family: sans-serif;
 }
 
 section {
     max-width: 700px;
     margin: auto;
+    background-color: white;
 }
 
 article {
@@ -19,14 +20,58 @@ article > footer {
     color: grey;
 }
 
-.title {
-    text-align: center;
+.header {
+    margin-bottom: 4em;
+    font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
 }
 
-.tagline {
+.header-image {
+    background: url("/imgs/beautiful-morning.jpg") center fixed;
+    background-size: cover;
+    height: 450px;
+}
+
+.header > h1 {
+    margin-top: 0.5em;
+}
+
+.title {
     text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: -0.04em;
+    line-height: 1;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666665;
+    font-size: 18px;
+    outline: 0;
+    word-break: break-word;
+    letter-spacing: -0.02em;
 }
 
 .site-nav {
     background-color: #191918;
 }
+
+article > p {
+    font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+article > header > h1 {
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    font-style: normal;
+    display: block;
+    font-size: 28px;
+    line-height: 1.1;
+}
+
