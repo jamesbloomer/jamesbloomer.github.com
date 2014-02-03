@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: sans-serif;
@@ -78,3 +79,45 @@ article > header > h1 {
 .pagination {
     text-align: center;
 }
+
+.footer {
+    padding: 2em;
+    color: rgb(110, 127, 140);
+    background-color: rgb(7, 12, 7);
+}
+
+.footer-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.footer p {
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer li {
+    display: inline;
+    margin-right: 1em;
+}
+
+.twitter {
+    height: 40px;
+}
+
+.feed {
+    height: 50px;
+}
+
+/* palette 
+ * background-color: rgb(110, 127, 140); // blue grey
+ * background-color: rgb(7, 12, 7);      // blackish
+ * background-color: rgb(65, 50, 36);    //brown
+ * background-color: rgb(138, 120, 107); // beige
+ * background-color: rgb(245, 243, 242); // cream
+ *
+ *
+ */
