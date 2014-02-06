@@ -86,9 +86,14 @@ article > header > h1 {
     background-color: rgb(7, 12, 7);
 }
 
-.footer-content {
+.footer-centre {
     max-width: 700px;
     margin: auto;
+}
+
+.footer-content {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .footer p {
@@ -102,6 +107,15 @@ article > header > h1 {
 .footer li {
     display: inline;
     margin-right: 1em;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(245, 243, 242);
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
 
 .twitter {
