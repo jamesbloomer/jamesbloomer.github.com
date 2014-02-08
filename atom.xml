@@ -1,0 +1,32 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>James Bloomer</title>
+    <link href="http://www.jamesbloomer.com/"/>
+    <link type="application/atom+xml" rel="self" href="http://www.jamesbloomer.com/atom.xml"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>http://www.jamesbloomer.com/</id>
+    <author>
+        <name>James Bloomer</name>
+        <email>james.bloomer@thebloomers.co.uk</email>
+    </author>
+
+    {% for post in site.posts %}
+    <entry>
+        <id>http://www.jamesbloomer.com{{ post.id }}</id>
+        <link type="text/html" rel="alternate" href="http://www.jamesbloomer.com{{ post.url }}"/>
+        <title>{{ post.title }}</title>
+        <published>{{ post.date | date_to_xmlschema }}</published>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <author>
+            <name>James Bloomer</name>
+            <uri>http://www.jamesbloomer.com/</uri>
+        </author>
+        <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+    {% endfor %}
+
+</feed>
