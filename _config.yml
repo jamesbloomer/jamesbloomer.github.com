@@ -1,0 +1,6 @@
+name: James Bloomer | Fiction & Software
+markdown: redcarpet
+pygments: true
+relative_permalinks: false
+paginate: 5
+paginate_path: "page:num"
