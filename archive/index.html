@@ -1,0 +1,17 @@
+---
+layout: default
+title: archives
+---
+<section>
+    <div class="archive">
+        <h3 class="archive-title">Archive</h3>
+            <ul>
+                {% for post in site.posts %}
+                <li>
+                    <time datetime="{{ post.date }}" pubdate="">{{ post.date | date_to_string }}</time>
+                    <a class="archive-link" href="{{ post.url }}" rel="bookmark" title="link to this post">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+    </div>
+</section>

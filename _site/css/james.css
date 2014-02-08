@@ -10,7 +10,7 @@ section {
     background-color: white;
 }
 
-article {
+article, .archive {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 3em;
@@ -75,7 +75,7 @@ article > footer {
     letter-spacing: -0.02em;
 }
 
-.post-title {
+.post-title, .archive-title {
     letter-spacing: -0.02em;
     font-weight: 700;
     font-style: normal;
@@ -89,7 +89,11 @@ article > footer {
     color: rgb(110, 127, 140);
 }
 
-article > p {
+.archive-link {
+    color: rgb(65, 50, 36);
+} 
+
+article > p, .archive {
     font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
     letter-spacing: .01rem;
     font-weight: 400;
@@ -121,7 +125,7 @@ article > p {
 .footer p {
 }
 
-.footer ul {
+ul {
     padding: 0;
     list-style: none;
 }
