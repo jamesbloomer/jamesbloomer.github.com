@@ -29,11 +29,33 @@ article > footer {
 .header-image {
     background: url("/imgs/beautiful-morning.jpg") center fixed;
     background-size: cover;
+    position: relative;
     height: 450px;
 }
 
-.header > h1 {
-    margin-top: 0.5em;
+.header-text {
+    width: 75%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 70%; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+    color: rgb(245, 243, 242);
+}
+
+.header-text a {
+    text-decoration: none;
+    color: rgb(245, 243, 242);
+    /*
+    text-shadow:1px 1px 0 rgb(110, 127, 140), 
+                -1px -1px 0 rgb(110, 127, 140), 
+                1px -1px 0 rgb(110, 127, 140), 
+                -1px 1px 0 rgb(110, 127, 140), 
+                1px 1px 0 rgb(110, 127, 140);
+                */
 }
 
 .title {
@@ -47,15 +69,24 @@ article > footer {
 
 .subtitle {
     text-align: center;
-    color: #666665;
     font-size: 18px;
     outline: 0;
     word-break: break-word;
     letter-spacing: -0.02em;
 }
 
-.site-nav {
-    background-color: #191918;
+.post-title {
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    font-style: normal;
+    display: block;
+    font-size: 28px;
+    line-height: 1.1;
+    color: rgb(110, 127, 140);
+}
+
+.post-title a {
+    color: rgb(110, 127, 140);
 }
 
 article > p {
@@ -65,15 +96,6 @@ article > p {
     font-style: normal;
     font-size: 22px;
     line-height: 1.5;
-}
-
-article > header > h1 {
-    letter-spacing: -0.02em;
-    font-weight: 700;
-    font-style: normal;
-    display: block;
-    font-size: 28px;
-    line-height: 1.1;
 }
 
 .pagination {
@@ -127,11 +149,9 @@ article > header > h1 {
 }
 
 /* palette 
- * background-color: rgb(110, 127, 140); // blue grey
- * background-color: rgb(7, 12, 7);      // blackish
- * background-color: rgb(65, 50, 36);    //brown
- * background-color: rgb(138, 120, 107); // beige
- * background-color: rgb(245, 243, 242); // cream
- *
- *
+ * rgb(110, 127, 140); // blue grey
+ * rgb(7, 12, 7);      // blackish
+ * rgb(65, 50, 36);    //brown
+ * rgb(138, 120, 107); // beige
+ * rgb(245, 243, 242); // cream
  */

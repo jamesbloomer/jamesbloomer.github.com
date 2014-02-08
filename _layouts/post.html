@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-{{ content }}
-</div>
+<section>
+    <article>
+        <header>
+            <h3 class="post-title">{{ page.title }}</h3>
+        </header>
+        {{ content }}
+        <footer>
+            Published on <time datetime="{{ page.date }}" pubdate="">{{ page.date | date_to_string }}</time>
+            </ul>
+        </footer>
+    </article>
+</section>
