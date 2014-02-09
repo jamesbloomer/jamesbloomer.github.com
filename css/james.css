@@ -49,13 +49,6 @@ article > footer {
 .header-text a {
     text-decoration: none;
     color: rgb(245, 243, 242);
-    /*
-    text-shadow:1px 1px 0 rgb(110, 127, 140), 
-                -1px -1px 0 rgb(110, 127, 140), 
-                1px -1px 0 rgb(110, 127, 140), 
-                -1px 1px 0 rgb(110, 127, 140), 
-                1px 1px 0 rgb(110, 127, 140);
-                */
 }
 
 .title {
@@ -75,7 +68,11 @@ article > footer {
     letter-spacing: -0.02em;
 }
 
-.post-title, .archive-title {
+.subtitle a:hover {
+    text-decoration: underline;
+}
+
+.post-title, .archive-title, .bio-title {
     letter-spacing: -0.02em;
     font-weight: 700;
     font-style: normal;
@@ -89,11 +86,11 @@ article > footer {
     color: rgb(110, 127, 140);
 }
 
-.archive-link {
+a {
     color: rgb(65, 50, 36);
 } 
 
-article > p, .archive {
+article > p, .archive, .bio-list {
     font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
     letter-spacing: .01rem;
     font-weight: 400;
@@ -129,6 +126,10 @@ ul {
     padding: 0;
     list-style: none;
 }
+ 
+.bio-list li {
+    margin-bottom: 20px;
+}
 
 .footer li {
     display: inline;
@@ -149,6 +150,10 @@ ul {
 }
 
 .feed {
+    height: 50px;
+}
+
+.github {
     height: 50px;
 }
 
