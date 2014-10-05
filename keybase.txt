@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/jamesbloomer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jamesbloomer.com
+  * I am jamesbloomer (https://keybase.io/jamesbloomer) on keybase.
+  * I have a public key with fingerprint 96FD AADC 4246 1846 1FDB  6C76 0812 66FF BEA2 645B
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "96fdaadc424618461fdb6c76081266ffbea2645b",
+            "host": "keybase.io",
+            "key_id": "081266ffbea2645b",
+            "uid": "f74feeac3fea837febe38d5f4dd45000",
+            "username": "jamesbloomer"
+        },
+        "service": {
+            "hostname": "jamesbloomer.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1412521897,
+    "expire_in": 157680000,
+    "prev": "c6ebe947604841d42d13b8e319c7aed595990959854521ca1327834f5b8201a9",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.1.2
+Comment: https://keybase.io/crypto
+
+yMHiAnicbZFrSBRRFMfX1sTWHguJVAbFhKG1yrzuPLanChFBEmqamW13Zu6so+7M
+OrPrg1UiDSKSPpRf6mOQYWEi5G6hgqyR0AuRJLFANPsQ2wMfGVJId6S++eHewz3n
+d/7nnHueb3E6XEnOhVF/u1RTmPRqeCXsKKV83RFCMpRmwhshatGaUTXdj8ygqekh
+wkuInKpAqMgszXKUgI+qSJzMc6RA0RynqhKCNMcCifAQ1YZlZ2AZCVooTzOwDz98
+moK96/DhtYDKsypCUGZUBAWGV5GEGEEBKqsoLCBJ0gYtZOowgDBdg40l1RlGAJlE
+q4fAkQZNRnbfdvl1qDzZCGCNoGmEDNmow9HqUCjotZNDzUGbbkSS75+OT9J0Bc+P
+ExqQaWmGTngpTMohzRamWIoGNCWIvIdATUHNRD7NJgDPCbhV0i6DGrCkzOExRBZ/
+EyuwlMLSCsVIAmIoUeYhUoAIRJHElwBYrCdDiqF5gWFVIAk0SUGRsCer1w3Cy+A2
+oR9LWppfh6GwiYjW+PCFZEeSy5GycYO9QYdrk/v/Xv80pjpuJs+W3+ida29kaioj
+xVnPVivyf0d+rixc6e/YdWtfobPiUefQCAnyo7F3RX1kzCtn172taolemn7xceYx
+rAh8eCpOrA4df3n2/bmLipr+0DxYkEgPH9HbXJO5Pf2uy/DL16vwKN8r1098jw8W
+u3OWTsQzX4/VqiMH+rJOp1irU4PNuz97wKlDn+gfm4v27C1pGh0bK0gMfJsaWDof
+m9w5PH4sA4COyu1zD+Z55/7r/QVZM2fCW8c7c3qe1Bt3006WHV7M3hEnU82S3Eyp
+pb1qOmV29p5zW5Fxv/POfEnar4zuloQ7I9p1LfZmOepeLFsZLVy+3SWAgdJEW3nw
+L/A6FwA=
+=18c1
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jamesbloomer
+
+==================================================================
+
