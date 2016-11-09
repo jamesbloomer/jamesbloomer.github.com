@@ -30,7 +30,7 @@ article > footer {
     background: url("/imgs/beautiful-morning.jpg") center fixed;
     background-size: cover;
     position: relative;
-    height: 450px;
+    height: 100vh;
 }
 
 .header-text {
@@ -68,7 +68,7 @@ article > footer {
     letter-spacing: -0.02em;
 }
 
-.subtitle a:hover {
+.subtitle a {
     text-decoration: underline;
 }
 
