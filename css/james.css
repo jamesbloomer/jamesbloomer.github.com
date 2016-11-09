@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 section {
@@ -22,8 +23,7 @@ article > footer {
 }
 
 .header {
-    margin-bottom: 4em;
-    font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    text-transform: uppercase;
 }
 
 .header-image {
@@ -39,23 +39,23 @@ article > footer {
     overflow: auto;
     margin: auto;
     position: absolute;
-    top: 65%; 
+    top: 25%; 
     left: 0; 
     bottom: 0; 
     right: 0;
-    color: rgb(245, 243, 242);
+    color: rgba(255, 255, 255, .7);
 }
 
 .header-text a {
     text-decoration: none;
-    color: rgb(245, 243, 242);
+    color: rgba(255, 255, 255, .7);
 }
 
 .title {
     text-align: center;
     font-weight: 700;
     font-style: normal;
-    font-size: 50px;
+    font-size: 5vmax;
     letter-spacing: -0.04em;
     line-height: 1;
 }
